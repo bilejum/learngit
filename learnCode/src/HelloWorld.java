@@ -1,5 +1,10 @@
 public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        for (int c = 0; c <233; c++) {
+            System.out.println("C++");
+
+
+        }
+        System.out.println("Python");
     }
 }
