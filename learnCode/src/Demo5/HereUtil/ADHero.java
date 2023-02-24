@@ -8,4 +8,13 @@ public class ADHero extends Hero implements PhysicAttack {
         System.out.println("物理攻击");
 
     }
+
+    public void attack() {
+        System.out.println("物理攻击");
+    }
+
+    @Override
+    public void die() {
+        System.out.println("死的很暴力");
+    }
 }

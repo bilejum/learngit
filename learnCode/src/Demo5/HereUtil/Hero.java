@@ -17,6 +17,8 @@ public class Hero {
         this.armor = armor;
     }
 
+
+
     /**
      * 获取
      * @return name
@@ -83,5 +85,19 @@ public class Hero {
 
     public String toString() {
         return "Hero{name = " + name + ", hp = " + hp + ", att = " + att + ", armor = " + armor + "}";
+    }
+
+    public void attack() {
+        System.out.println("攻击");
+
+    }
+
+    public void die() {
+        System.out.println("死的很高清");
+
+    }
+
+    public void kill(Hero hero) {
+        hero.die();
     }
 }
