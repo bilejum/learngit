@@ -33,7 +33,6 @@ public class Demo5_5 {
 
             builder.append(c2);
             System.out.println(builder);
-
         }
 
         String string = builder.toString();
